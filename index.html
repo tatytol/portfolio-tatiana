@@ -1,87 +1,125 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfólio Tatiana Oliveira Lima</title>
+<section id="protocolo">
+  <h2>Minha forma de pensar e agir como Product Manager</h2>
+  <p>Transformar dados em decisões e ideias em impacto. É assim que atuo como PM. Organizei meu protocolo em cinco etapas práticas, cada uma guiada por um propósito: ouvir, testar, planejar, resolver e melhorar.</p>
+
+  <!-- Navegação interna -->
+  <nav class="pm-nav">
+    <a href="#entender">Entender o problema</a>
+    <a href="#explorar">Explorar possibilidades</a>
+    <a href="#priorizar">Planejar com foco</a>
+    <a href="#testar">Testar com usuários</a>
+    <a href="#evoluir">Evoluir com dados</a>
+  </nav>
+
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 2rem;
-      background: #f7f7f7;
+    .pm-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 20px 0;
+      justify-content: center;
+    }
+    .pm-nav a {
+      background: #f0f0f0;
+      padding: 8px 14px;
+      border-radius: 20px;
+      text-decoration: none;
       color: #333;
-      line-height: 1.6;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: background 0.2s ease;
     }
-    header {
-      text-align: center;
-      padding-bottom: 2rem;
-    }
-    h1 {
-      margin: 0;
-    }
-    .section {
-      margin-bottom: 3rem;
-    }
-    .case {
-      background: #fff;
-      padding: 1.5rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      margin-bottom: 1rem;
-    }
-    .case h3 {
-      margin-top: 0;
-    }
-    .case p {
-      margin: 0.5rem 0;
+    .pm-nav a:hover {
+      background: #e0e0e0;
     }
   </style>
-</head>
-<body>
-  <header>
-    <h1>Tatiana Oliveira Lima</h1>
-    <p>Product Manager com foco em inovação, experiência do usuário e transformação digital por meio de educação e tecnologia.</p>
-  </header>
 
-  <section class="section">
-    <h2>Sobre mim</h2>
-    <p>Sou Product Manager com mais de 14 anos de experiência em gestão de equipes, comunicação e tecnologia. Atuo com gestão de produtos digitais, posicionamento de marca e criação de experiências educativas com base em dados, design e IA.</p>
-    <p>Atualmente lidero o Blips Educa, plataforma que conecta empreendedores a conteúdos que transformam o uso de equipamentos em sucesso de negócio. O que me move é entregar resultado sem abrir mão do lado humano das relações e dos produtos.</p>
-  </section>
+  <!-- Fluxograma -->
+  <div class="fluxograma">
+    <div class="etapa">Diagnóstico</div>
+    <div class="seta">➝</div>
+    <div class="etapa">Pesquisa</div>
+    <div class="seta">➝</div>
+    <div class="etapa">Planejamento</div>
+    <div class="seta">➝</div>
+    <div class="etapa">Testes</div>
+    <div class="seta">➝</div>
+    <div class="etapa">Evolução</div>
+  </div>
 
-  <section class="section">
-    <h2>Cases de Destaque</h2>
+  <style>
+    .fluxograma {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin: 24px 0;
+      gap: 10px;
+      font-size: 1rem;
+    }
+    .etapa {
+      background-color: #f3f3f3;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .seta {
+      font-size: 1.5rem;
+      color: #999;
+    }
+  </style>
 
-    <div class="case">
-      <h3>Blips Educa</h3>
-      <p><strong>Problema:</strong> Clientes enfrentavam dificuldades técnicas por falta de conteúdo acessível e didático.</p>
-      <p><strong>Solução:</strong> Estruturei uma plataforma LSM com vídeos técnicos, tutoriais práticos e dicas de empreendedorismo.</p>
-      <p><strong>Impacto:</strong> Aumento de 57% no engajamento na fase de instalação e redução de 43,86% nos chamados abertos quando vídeos são indicados.</p>
-      <p><strong>Ferramentas:</strong> Figma, Netshow.me, Looker Studio, IA Socorro (recomendações automatizadas).</p>
-    </div>
+  <!-- Etapas do protocolo -->
+  <h3 id="entender">Entender o problema antes de propor solução</h3>
+  <p>Começo ouvindo: dados, usuários, time, contexto. Cruzo indicadores como engajamento, retenção e origem de acesso com relatos reais (entrevistas, SAC, blipers). Assim, evito achismos e enxergo o problema completo.</p>
 
-    <div class="case">
-      <h3>Blipeiro de Sucesso</h3>
-      <p><strong>Problema:</strong> Clientes com dificuldades de usabilidade estavam insatisfeitos e propensos a cancelar contratos.</p>
-      <p><strong>Solução:</strong> Criei um framework de diagnóstico para mapear causas, implementei trilhas de vídeo personalizadas e acompanhamento ativo.</p>
-      <p><strong>Impacto:</strong> Melhora no NPS de clientes críticos e queda nos chamados relacionados à experiência.</p>
-      <p><strong>Ferramentas:</strong> Google Forms, entrevistas qualitativas, conteúdos direcionados via app e Web.</p>
-    </div>
+  <h3 id="explorar">Explorar soluções e inspirações que façam sentido</h3>
+  <p>Benchmark não é copiar. É investigar o que funciona e adaptar para a nossa realidade. Faço análise de mercado, entrevistas, e uso frameworks como Jobs To Be Done para descobrir o que realmente importa para o usuário.</p>
 
-    <div class="case">
-      <h3>Implantação de IA no fluxo de atendimento</h3>
-      <p><strong>Problema:</strong> Alto volume de dúvidas repetitivas no suporte técnico.</p>
-      <p><strong>Solução:</strong> Treinamento de IA com base nos vídeos do Blips Educa para indicar conteúdos antes do chamado ser aberto.</p>
-      <p><strong>Impacto:</strong> 33% dos chamados resolvidos apenas com indicação da IA.</p>
-      <p><strong>Ferramentas:</strong> Chatbot com integração própria, análise de dados de retenção e feedback do usuário.</p>
-    </div>
-  </section>
+  <h3 id="priorizar">Planejar com foco em valor, não volume</h3>
+  <p>Traduzo hipóteses em backlog com priorização estratégica (RICE, ICE). Organizo OKRs, dashboards e cronogramas visuais para alinhar todos os envolvidos. Evito sobrecarga. Tudo que entra tem motivo, prazo e impacto esperado.</p>
 
-  <section class="section">
-    <h2>Contato</h2>
-    <p><strong>Email:</strong> taty.tol.jornalismo@gmail.com</p>
-    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/tatianaoliveiralima/" target="_blank">linkedin.com/in/tatianaoliveiralima</a></p>
-  </section>
-</body>
-</html>
+  <h3 id="testar">Testar com quem realmente importa: o usuário</h3>
+  <p>Valido tudo em ciclos curtos, com pilotos reais: técnicos, blipers e clientes. Monitoro o uso, recolho feedbacks e ajusto o necessário antes de escalar. Testar não é validar ego — é confirmar valor.</p>
+
+  <h3 id="evoluir">Evoluir sempre, com base em dados reais</h3>
+  <p>Produto vivo precisa de atenção. Faço acompanhamento constante de KPIs, ajusto conteúdos, mudo estratégias (como thumb, copy ou canal), e uso IA como aliada na personalização e automação.</p>
+
+  <!-- Casos práticos -->
+  <hr>
+  <h3>Casos reais em que apliquei esse protocolo</h3>
+  <ul>
+    <li><strong>Blips Educa:</strong> Concepção, estruturação e lançamento da plataforma de educação. Aumento de 70% na retenção média dos vídeos e mais de 10 mil acessos únicos em 3 meses.</li>
+    <li><strong>Blipeiro de Sucesso:</strong> Framework próprio para mapear clientes com baixa usabilidade. Entrevistas, visitas e plano de ação estruturado com resultados mensuráveis.</li>
+    <li><strong>IA Socorro:</strong> Treinamento de IA com base em dúvidas reais de clientes, resultando em 43,86% de fechamento automático de tickets com conteúdo educativo.</li>
+    <li><strong>App Blips Educa:</strong> Testes de push, QR Code e funcionalidades em campo antes do go live. Adesão mobile aumentou após ajustes guiados por dados.</li>
+    <li><strong>Vídeos na instalação:</strong> Criação de plano com time técnico para aumentar uso dos vídeos durante instalação, atingindo 57% de engajamento nesse momento da jornada.</li>
+  </ul>
+
+  <!-- CTA final -->
+  <div class="cta-final">
+    <p><strong>Quer trocar uma ideia sobre produto, UX ou IA?</strong></p>
+    <a class="botao-linkedin" href="https://www.linkedin.com/in/tatitol" target="_blank">Vamos conversar no LinkedIn</a>
+  </div>
+
+  <style>
+    .cta-final {
+      text-align: center;
+      margin-top: 32px;
+    }
+    .botao-linkedin {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: #0077b5;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .botao-linkedin:hover {
+      background-color: #005f8d;
+    }
+  </style>
+</section>
