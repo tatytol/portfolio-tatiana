@@ -35,29 +35,6 @@
       margin-bottom: 1em;
     }
 
-    .pm-nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin: 20px 0;
-      justify-content: center;
-    }
-
-    .pm-nav a {
-      background: #f0f0f0;
-      padding: 8px 14px;
-      border-radius: 20px;
-      text-decoration: none;
-      color: #333;
-      font-size: 0.95rem;
-      font-weight: 500;
-      transition: background 0.2s ease;
-    }
-
-    .pm-nav a:hover {
-      background: #e0e0e0;
-    }
-
     .fluxograma {
       display: flex;
       flex-wrap: wrap;
@@ -100,7 +77,8 @@
     .botao-linkedin:hover {
       background-color: #005f8d;
     }
-      .cases li {
+
+    .cases li {
       background: #f5f5f5;
       border-radius: 10px;
       padding: 20px;
@@ -113,7 +91,7 @@
       margin-bottom: 10px;
       font-size: 1.1em;
     }
-</style>
+  </style>
 </head>
 <body>
   <header style="background: #f7f7f7; padding: 20px 0; text-align: center; border-bottom: 1px solid #ddd;">
@@ -123,8 +101,6 @@
     <p><em>No final desta página, compartilho cases reais com aplicação prática do meu protocolo de gestão de produto.</em></p>
     <h2>Minha forma de pensar e agir como Product Manager</h2>
     <p>Transformar dados em decisões e ideias em impacto. É assim que atuo como PM. Organizei meu protocolo em cinco etapas práticas, cada uma guiada por um propósito: ouvir, testar, planejar, resolver e melhorar.</p>
-
-    
 
     <div class="fluxograma">
       <div class="etapa">Diagnóstico</div>
@@ -139,7 +115,7 @@
     </div>
 
     <h3 id="entender">Entender o problema antes de propor solução</h3>
-    <p>Começo ouvindo: dados, usuários, time, contexto. Cruzo indicadores como engajamento, retenção e origem de acesso com relatos reais (entrevistas, SAC, blipers). Assim, evito achismos e enxergo o problema completo.</p>
+    <p>Começo ouvindo: dados, usuários, time, contexto. Cruzo indicadores como engajamento, retenção e origem de acesso com relatos reais (entrevistas, SAC, colaboradores). Assim, evito achismos e enxergo o problema completo.</p>
 
     <h3 id="explorar">Explorar soluções e inspirações que façam sentido</h3>
     <p>Benchmark não é copiar. É investigar o que funciona e adaptar para a nossa realidade. Faço análise de mercado, entrevistas, e uso frameworks como Jobs To Be Done para descobrir o que realmente importa para o usuário.</p>
@@ -148,7 +124,7 @@
     <p>Traduzo hipóteses em backlog com priorização estratégica (RICE, ICE). Organizo OKRs, dashboards e cronogramas visuais para alinhar todos os envolvidos. Evito sobrecarga. Tudo que entra tem motivo, prazo e impacto esperado.</p>
 
     <h3 id="testar">Testar com quem realmente importa: o usuário</h3>
-    <p>Valido tudo em ciclos curtos, com pilotos reais: técnicos, blipers e clientes. Monitoro o uso, recolho feedbacks e ajusto o necessário antes de escalar. Testar não é validar ego — é confirmar valor.</p>
+    <p>Valido tudo em ciclos curtos, com pilotos reais: técnicos, colaboradores e clientes. Monitoro o uso, recolho feedbacks e ajusto o necessário antes de escalar. Testar não é validar ego — é confirmar valor.</p>
 
     <h3 id="evoluir">Evoluir sempre, com base em dados reais</h3>
     <p>Produto vivo precisa de atenção. Faço acompanhamento constante de KPIs, ajusto conteúdos, mudo estratégias (como thumb, copy ou canal), e uso IA como aliada na personalização e automação.</p>
@@ -157,7 +133,42 @@
     <h3>Casos reais em que apliquei esse protocolo</h3>
 
 <div class="cases">
-<ol>$1</ol>
+  <li>
+  <strong>1. Blips Educa — Lançamento e validação da plataforma</strong>
+  <p><strong>Situação:</strong> A empresa precisava estruturar um ambiente de educação digital para clientes, com foco em retenção de conhecimento e autonomia.</p>
+  <p><strong>Tarefa:</strong> Conduzir o lançamento do MVP da plataforma Blips Educa, validando se o conteúdo gerava valor.</p>
+  <p><strong>Ação:</strong> Planejei a jornada inicial com foco em onboarding técnico e navegação simples. Alinhei com o time de dev para facilitar o acesso com login simplificado. Defini indicadores de retenção, coletei dados com o BI e estruturei o time e calendário de conteúdos.</p>
+  <p><strong>Resultado:</strong> Retenção média de vídeos acima da meta (mais de 70%) e mais de 10 mil acessos em 3 meses, validando o produto com base em uso real e engajamento.</p>
+</li>
+<li>
+  <strong>2. Blipeiro de Sucesso — Redução de churn e aumento da reputação</strong>
+  <p><strong>Situação:</strong> Identificamos que parte do churn não era por falha técnica, mas por baixa usabilidade e falta de acompanhamento após a venda.</p>
+  <p><strong>Tarefa:</strong> Criar uma estratégia para reverter clientes críticos e evitar cancelamentos por questões comportamentais ou operacionais.</p>
+  <p><strong>Ação:</strong> Desenvolvi um framework de diagnóstico com entrevistas presenciais, levantamento de dados de uso e aplicação piloto em São Paulo. A estratégia foi dividida em quatro fases com plano de ação personalizado por cliente.</p>
+  <p><strong>Resultado:</strong> A Blips passou a ter nota 10 no Reclame Aqui entre os clientes acompanhados e houve redução direta no churn desse grupo, além de melhoria na relação com a marca.</p>
+</li>
+    <li>
+      <strong>3. IA Socorro — Automação com impacto em suporte</strong>
+      <p><strong>Situação:</strong> O time de suporte gastava tempo resolvendo dúvidas repetitivas e simples dos clientes.</p>
+      <p><strong>Tarefa:</strong> Integrar a IA Socorro à plataforma Blips Educa para aumentar a autonomia dos clientes e aliviar o time técnico.</p>
+      <p><strong>Ação:</strong> Mapeei dúvidas recorrentes com base nos dados do SAC, cruzei com o conteúdo disponível e treinei a IA para sugerir vídeos automaticamente.</p>
+      <p><strong>Resultado:</strong> Mais de 40% dos tickets que receberam sugestão da IA foram resolvidos sem intervenção humana, com feedbacks positivos e agilidade no suporte.</p>
+    </li>
+    <li>
+      <strong>4. App Blips Educa — Validação e experiência mobile</strong>
+      <p><strong>Situação:</strong> A empresa precisava lançar o aplicativo mobile da Blips Educa com boa experiência desde o início.</p>
+      <p><strong>Tarefa:</strong> Garantir que o app atendesse à expectativa dos usuários e estivesse pronto para divulgação em evento de grande visibilidade.</p>
+      <p><strong>Ação:</strong> Realizei benchmarking com apps do setor e entrevistas com usuários para mapear expectativas. Validei funcionalidades em campo, detectei e corrigi bugs (como falha no download), revisei pushs e criei QR Codes para facilitar o acesso.</p>
+      <p><strong>Resultado:</strong> O app foi lançado com alta adesão inicial, especialmente por conta da validação com o público real e alinhamento com expectativas.</p>
+    </li>
+    <li>
+      <strong>5. Vídeos na instalação — Correção de rota e autonomia do cliente</strong>
+      <p><strong>Situação:</strong> Ao lançar a Blips Educa, não considerei inicialmente a mensuração de engajamento na fase de instalação de equipamentos.</p>
+      <p><strong>Tarefa:</strong> Corrigir a baixa adesão à plataforma nesse momento crucial da jornada do cliente.</p>
+      <p><strong>Ação:</strong> Ao perceber o erro, me reuni com stakeholders (instalação, marketing, gerentes de conta, dev e dados), elaborei uma estratégia de gamificação e engajamento direcionada. Criamos vídeos objetivos e acionáveis, e ativamos os gerentes de conta como promotores da plataforma.</p>
+      <p><strong>Resultado:</strong> A adesão à plataforma na fase de instalação saltou de cerca de 16% para aproximadamente 53%, com redução do tempo médio de instalação e maior autonomia dos clientes no uso dos equipamentos.</p>
+    </li>
+  </ol>
 </div>
 
     <div class="cta-final">
