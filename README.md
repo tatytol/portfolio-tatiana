@@ -1,52 +1,161 @@
-## Minha forma de pensar e agir como Product Manager
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Tatiana Oliveira</title>
 
-Transformar dados em decisões e ideias em impacto. É assim que atuo como PM. Organizei meu protocolo em cinco etapas práticas, cada uma guiada por um propósito: ouvir, testar, planejar, resolver e melhorar.
+  <!-- Fonte moderna Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
-### 🧭 Navegue pelas etapas:
+  <style>
+    body {
+      font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
+      line-height: 1.5;
+      font-size: 16px;
+      color: #333;
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+    }
 
-- [Entender o problema](#entender-o-problema)
-- [Explorar possibilidades](#explorar-possibilidades)
-- [Planejar com foco](#planejar-com-foco)
-- [Testar com usuários](#testar-com-usuários)
-- [Evoluir com dados](#evoluir-com-dados)
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
 
----
+    h2, h3 {
+      font-weight: 600;
+      color: #222;
+      margin-top: 1.5em;
+    }
 
-### Diagnóstico → Pesquisa → Planejamento → Testes → Evolução
+    p, li {
+      margin-bottom: 1em;
+    }
 
----
+    .pm-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 20px 0;
+      justify-content: center;
+    }
 
-### Entender o problema
+    .pm-nav a {
+      background: #f0f0f0;
+      padding: 8px 14px;
+      border-radius: 20px;
+      text-decoration: none;
+      color: #333;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: background 0.2s ease;
+    }
 
-Começo ouvindo: dados, usuários, time, contexto. Cruzo indicadores como engajamento, retenção e origem de acesso com relatos reais (entrevistas, SAC, blipers). Assim, evito achismos e enxergo o problema completo.
+    .pm-nav a:hover {
+      background: #e0e0e0;
+    }
 
-### Explorar possibilidades
+    .fluxograma {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin: 24px 0;
+      gap: 10px;
+      font-size: 1rem;
+    }
 
-Benchmark não é copiar. É investigar o que funciona e adaptar para a nossa realidade. Faço análise de mercado, entrevistas, e uso frameworks como Jobs To Be Done para descobrir o que realmente importa para o usuário.
+    .etapa {
+      background-color: #f3f3f3;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
 
-### Planejar com foco
+    .seta {
+      font-size: 1.5rem;
+      color: #999;
+    }
 
-Traduzo hipóteses em backlog com priorização estratégica (RICE, ICE). Organizo OKRs, dashboards e cronogramas visuais para alinhar todos os envolvidos. Evito sobrecarga. Tudo que entra tem motivo, prazo e impacto esperado.
+    .cta-final {
+      text-align: center;
+      margin-top: 32px;
+    }
 
-### Testar com usuários
+    .botao-linkedin {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: #0077b5;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
 
-Valido tudo em ciclos curtos, com pilotos reais: técnicos, blipers e clientes. Monitoro o uso, recolho feedbacks e ajusto o necessário antes de escalar. Testar não é validar ego — é confirmar valor.
+    .botao-linkedin:hover {
+      background-color: #005f8d;
+    }
+  </style>
+</head>
+<body>
+  <section id="protocolo">
+    <h2>Minha forma de pensar e agir como Product Manager</h2>
+    <p>Transformar dados em decisões e ideias em impacto. É assim que atuo como PM. Organizei meu protocolo em cinco etapas práticas, cada uma guiada por um propósito: ouvir, testar, planejar, resolver e melhorar.</p>
 
-### Evoluir com dados
+    <nav class="pm-nav">
+      <a href="#entender">Entender o problema</a>
+      <a href="#explorar">Explorar possibilidades</a>
+      <a href="#priorizar">Planejar com foco</a>
+      <a href="#testar">Testar com usuários</a>
+      <a href="#evoluir">Evoluir com dados</a>
+    </nav>
 
-Produto vivo precisa de atenção. Faço acompanhamento constante de KPIs, ajusto conteúdos, mudo estratégias (como thumb, copy ou canal), e uso IA como aliada na personalização e automação.
+    <div class="fluxograma">
+      <div class="etapa">Diagnóstico</div>
+      <div class="seta">➝</div>
+      <div class="etapa">Pesquisa</div>
+      <div class="seta">➝</div>
+      <div class="etapa">Planejamento</div>
+      <div class="seta">➝</div>
+      <div class="etapa">Testes</div>
+      <div class="seta">➝</div>
+      <div class="etapa">Evolução</div>
+    </div>
 
----
+    <h3 id="entender">Entender o problema antes de propor solução</h3>
+    <p>Começo ouvindo: dados, usuários, time, contexto. Cruzo indicadores como engajamento, retenção e origem de acesso com relatos reais (entrevistas, SAC, blipers). Assim, evito achismos e enxergo o problema completo.</p>
 
-## Casos reais em que apliquei esse protocolo
+    <h3 id="explorar">Explorar soluções e inspirações que façam sentido</h3>
+    <p>Benchmark não é copiar. É investigar o que funciona e adaptar para a nossa realidade. Faço análise de mercado, entrevistas, e uso frameworks como Jobs To Be Done para descobrir o que realmente importa para o usuário.</p>
 
-- **Blips Educa:** Concepção, estruturação e lançamento da plataforma de educação. Aumento de 70% na retenção média dos vídeos e mais de 10 mil acessos únicos em 3 meses.
-- **Blipeiro de Sucesso:** Framework próprio para mapear clientes com baixa usabilidade. Entrevistas, visitas e plano de ação estruturado com resultados mensuráveis.
-- **IA Socorro:** Treinamento de IA com base em dúvidas reais de clientes, resultando em 43,86% de fechamento automático de tickets com conteúdo educativo.
-- **App Blips Educa:** Testes de push, QR Code e funcionalidades em campo antes do go live. Adesão mobile aumentou após ajustes guiados por dados.
-- **Vídeos na instalação:** Criação de plano com time técnico para aumentar uso dos vídeos durante instalação, atingindo 57% de engajamento nesse momento da jornada.
+    <h3 id="priorizar">Planejar com foco em valor, não volume</h3>
+    <p>Traduzo hipóteses em backlog com priorização estratégica (RICE, ICE). Organizo OKRs, dashboards e cronogramas visuais para alinhar todos os envolvidos. Evito sobrecarga. Tudo que entra tem motivo, prazo e impacto esperado.</p>
 
----
+    <h3 id="testar">Testar com quem realmente importa: o usuário</h3>
+    <p>Valido tudo em ciclos curtos, com pilotos reais: técnicos, blipers e clientes. Monitoro o uso, recolho feedbacks e ajusto o necessário antes de escalar. Testar não é validar ego — é confirmar valor.</p>
 
-**Quer trocar uma ideia sobre produto, UX ou IA?**  
-[Converse comigo no LinkedIn](https://www.linkedin.com/in/tatitol)
+    <h3 id="evoluir">Evoluir sempre, com base em dados reais</h3>
+    <p>Produto vivo precisa de atenção. Faço acompanhamento constante de KPIs, ajusto conteúdos, mudo estratégias (como thumb, copy ou canal), e uso IA como aliada na personalização e automação.</p>
+
+    <hr>
+    <h3>Casos reais em que apliquei esse protocolo</h3>
+    <ul>
+      <li><strong>Blips Educa:</strong> Concepção, estruturação e lançamento da plataforma de educação. Aumento de 70% na retenção média dos vídeos e mais de 10 mil acessos únicos em 3 meses.</li>
+      <li><strong>Blipeiro de Sucesso:</strong> Framework próprio para mapear clientes com baixa usabilidade. Entrevistas, visitas e plano de ação estruturado com resultados mensuráveis.</li>
+      <li><strong>IA Socorro:</strong> Treinamento de IA com base em dúvidas reais de clientes, resultando em 43,86% de fechamento automático de tickets com conteúdo educativo.</li>
+      <li><strong>App Blips Educa:</strong> Testes de push, QR Code e funcionalidades em campo antes do go live. Adesão mobile aumentou após ajustes guiados por dados.</li>
+      <li><strong>Vídeos na instalação:</strong> Criação de plano com time técnico para aumentar uso dos vídeos durante instalação, atingindo 57% de engajamento nesse momento da jornada.</li>
+    </ul>
+
+    <div class="cta-final">
+      <p><strong>Quer trocar uma ideia sobre produto, UX ou IA?</strong></p>
+      <a class="botao-linkedin" href="https://www.linkedin.com/in/tatitol" target="_blank">Vamos conversar no LinkedIn</a>
+    </div>
+  </section>
+</body>
+</html>
